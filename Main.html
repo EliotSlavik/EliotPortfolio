@@ -1,83 +1,135 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-	<meta charset="utf-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>My Portfolio</title>
-	<link rel="stylesheet" type="text/css" href="style.css">
-</head>
-<body>
-	<header>
-		<h1>Eliot Slavik</h1>
-		<nav>
-			<ul>
-				<li><a href="#about">About</a></li>
-				<li><a href="#projects">Projects</a></li>
-				<li><a href="#socials">Social Media</a></li>
-			</ul>
-		</nav>
-	</header>
-	<main>
-		<section id="about">
-			<h2>About Me</h2>
-			<p id = "aboutme"> 
-				Welcome to my portfolio! I'm Eliot Slavik, a skilled web developer based in Chicago area. 
-				Beyond my work in web development, I'm also passionate about designing and building tech for paranormal investigating alongside ACG Paranormal. 
-				Additionally, I volunteer my time with the Windy City Ghostbusters to give back to my community. 
-				With a deep love for learning, I'm always eager to expand my horizons and explore new topics.
-				Thank you for taking the time to get to know me better.
-			</p> 
-			<img id="eliot-image" src="public/PhotoOfMe.jpg" alt="Photo of Eliot Slavik">
-			<div class="skills">
-				<h3 id="skills-header">Skills</h3>
-				<ul id="skills-list">
-					<li>HTML</li>
-					<li>CSS</li>
-					<li>JavaScript</li>
-					<li>React JS</li>
-					<li>Express JS</li>
-					<li>MongoDB</li>
-					<li>Node JS</li>
-				</ul>
-			</div>
-		</section>
-		<section id="projects">
-			<h2 id="projects-header">Projects</h2>
-			<ul id="projects-list">
-				<li>
-					<!-- maybe ACG WEBSITE -->
-					<h3>Project 1</h3>
-					<p>Description of project 1.</p>
-				</li>
-				<li>
-					<!-- Make a store -->
-					<h3>Project 2</h3>
-					<p>Description of project 2.</p>
-				</li>
-				<li>
-					<!--  -->
-					<h3>Project 3</h3>
-					<p>Description of project 3.</p>
-				</li>
-			</ul>
-		</section>
-		<div id="socials" class="social-media">
-			<div class="social-media-header">
-				<h2>My Social Media</h2>
-			</div>
-			<div class="social-media-links">
-				<ul>
-					<li><a href="https://github.com/EliotSlavik" target=”_blank”><img class="social-img" src="public/github.png" alt="Github Logo"><i class="fab fa-github"></i></a></li>
-					<li><a href="https://www.linkedin.com/in/eliot-slavik-81a988254" target=”_blank”><img class="social-img" src="public/linkedin.png" alt="Linkedin Logo"><i class="linkedin"></i></a></li>
-					<li><a href="https://www.facebook.com/ELACGP/" target=”_blank”><img class="social-img" src="public/facebook.png" alt="Facebook Logo"><i class="facebook"></i></a></li>
-					<li><a href="https://www.instagram.com/eliotacg/" target=”_blank”><img class="social-img" src="public/instagram.png" alt="Instagram Logo"><i class="instagram"></i></a></li>
-				</ul>
-			</div>
-		</div>
-	</main>
-	<footer>		
-		<p>&copy; 2023 Eliot Slavik</p>
-	</footer>
-	<script src="app.js"></script>
-</body>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Portfolio</title>
+    <link rel="stylesheet" type="text/css" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <h1>Eliot Slavik</h1>
+      <nav>
+        <ul>
+          <li><a href="#about">About</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#socials">Social Media</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <div id="about">
+        <h2>About Me</h2>
+        <p id="aboutme">
+          Welcome to my portfolio! I'm Eliot Slavik, a skilled web developer
+          based in Chicago area. Beyond my work in web development, I'm also
+          passionate about designing and building tech for paranormal
+          investigating alongside ACG Paranormal. Additionally, I volunteer my
+          time with the Windy City Ghostbusters to give back to my community.
+          With a deep love for learning, I'm always eager to expand my horizons
+          and explore new topics. Thank you for taking the time to get to know
+          me better.
+        </p>
+        <img
+          id="eliot-image"
+          src="public/PhotoOfMe.jpg"
+          alt="Photo of Eliot Slavik"
+        />
+        <div class="skills">
+          <h3 id="skills-header">Skills</h3>
+          <ul id="skills-list">
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>JavaScript</li>
+            <li>React JS</li>
+            <li>Express JS</li>
+            <li>MongoDB</li>
+            <li>Node JS</li>
+          </ul>
+        </div>
+      </div>
+      <div id="projects">
+        <h2 id="projects-header">Projects</h2>
+        <ul id="projects-list">
+          <li>
+            <!-- maybe ACG WEBSITE -->
+            <h3>ACG Paranormal Website</h3>
+            <p>I designed and built a site for my paranormal team.</p>
+			<a href="https://linktr.ee/acgp" target="”_blank”"><img class="desktop-site" src="public/acgwebsiteplaceholder.png" alt="ACG Paranormal website"></a>
+            <h4 id="acg-features">Some of the sites features include</h4>
+            <ul class="features-list">
+              <li>The ability to watch content.</li>
+              <li>
+                A map of the locations we have visited along with links to the
+                locations.
+              </li>
+            </ul>
+          </li>
+          <li>
+            <!-- Make a store -->
+            <h3>Project 2</h3>
+            <p>Description of project 2.</p>
+          </li>
+          <li>
+            <!--  -->
+            <h3>Project 3</h3>
+            <p>Description of project 3.</p>
+          </li>
+        </ul>
+      </div>
+	 
+
+      <div id="socials" class="social-media">
+        <div class="social-media-header">
+          <h2>My Social Media</h2>
+        </div> 
+		<div>
+		Contact me at <a href= "Eliotslavik@yahoo.com">Eliotslavik@yahoo.com</a> or on any of my socials:
+	  </div>
+	  <br>
+        <div class="social-media-links">
+          <ul>
+            <li>
+              <a href="https://github.com/EliotSlavik" target="”_blank”"
+                ><img
+                  class="social-img"
+                  src="public/github.png"
+                  alt="Github Logo" /><i class="fab fa-github"></i
+              ></a>
+            </li>
+            <li>
+              <a
+                href="https://www.linkedin.com/in/eliot-slavik-81a988254"
+                target="”_blank”"
+                ><img
+                  class="social-img"
+                  src="public/linkedin.png"
+                  alt="Linkedin Logo" /><i class="linkedin"></i
+              ></a>
+            </li>
+            <li>
+              <a href="https://www.facebook.com/ELACGP/" target="”_blank”"
+                ><img
+                  class="social-img"
+                  src="public/facebook.png"
+                  alt="Facebook Logo" /><i class="facebook"></i
+              ></a>
+            </li>
+            <li>
+              <a href="https://www.instagram.com/eliotacg/" target="”_blank”"
+                ><img
+                  class="social-img"
+                  src="public/instagram.png"
+                  alt="Instagram Logo" /><i class="instagram"></i
+              ></a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </main>
+    <footer>
+      <p>&copy; 2023 Eliot Slavik</p>
+    </footer>
+    <script src="app.js"></script>
+  </body>
 </html>

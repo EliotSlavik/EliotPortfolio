@@ -193,7 +193,17 @@ header {
   #projects-list{
 	list-style-type: none;
   }
+
+  .desktop-site{
+    max-width: 500px;
+  }
+
+  .features-list{
+    list-style: none;
+  }
   
+
+
   .social-media {
     max-width: 800px;
     margin: 0 auto;
